@@ -1,0 +1,68 @@
+ul.navbar-nav>li>a{
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+ul.navbar-nav>li.nav-item.dropdown>.dropdown-menu>a{
+	letter-spacing: 0.15rem;
+}
+
+.list-unstyled li {
+	padding: 1.5rem;
+	border-bottom: 1px solid #343a40;
+
+}
+.list-unstyled li a{
+	color: black;
+	text-decoration: none;
+}
+
+footer {
+	padding: 2rem;
+	background-color: #eee;
+	margin-top: 2rem;
+}
+
+footer a {
+	color: #666666;
+	transition: color 0.4s ease-in;
+	padding: 0.2rem;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+
+footer p {
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+ footer a:hover {
+ 	color: black ;
+ 	text-decoration: none;
+ }
+
+ .btn {
+ 	color: #ff3300;
+ 	border-color: #ff3300;  
+ 	border-style: dotted; 
+ 	transition: 2s;
+ }
+ .btn:hover {
+ 	background-color: #ff8533; 
+ 	color: black;
+ }
+.text {
+	color: black;
+}
+.dropdown-item:active {
+background-color: #ff8533;
+}
+
+ul .mapa a {
+	text-decoration: none;
+	color: black;
+	transition: 1s; 
+}
+ul .mapa a:hover {
+	text-transform: uppercase;
+	color: #ff8533;
+}
+
